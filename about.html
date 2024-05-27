@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="icon" href="design_img/logo.png">
+  <title>Cafe +met | about</title>
+</head>
+<body>
+  <header>
+    <!-- Div Section 1: Navbar -->
+    <nav id="navbar">
+      <div class="container nx-flex">
+        <h1>
+          <img src="design_img/logo.png" alt="logo">
+        </h1>     
+          <label for="navToggle" class="btn-burger">
+            <span class="icon"></span>            
+          </label>        
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./coffee.html">Coffee</a></li>
+          <li><a href="./about.html" class="current">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="sp-menu" id="navbar2">
+      <div class="container nx-flex">
+        <h1>
+          <img src="design_img/logo.png" alt="logo">
+        </h1> 
+
+      <input type="checkbox" id="sp-menu__check">
+      <label for="sp-menu__check" class="sp-menu__box">
+        <span></span>
+      </label>
+      <div class="sp-menu__content">
+        <ul class="sp-menu__list">
+          <li class="sp-menu__item">
+            <a class="sp-menu__link" href="./index.html">Home</a>
+          </li>
+          <li class="sp-menu__item">
+            <a class="sp-menu__link" href="./coffee.html">Coffee</a>
+          </li>
+          <li class="sp-menu__item">
+            <a class="sp-menu__link current" href="./about.html">About</a>
+          </li>
+          <li class="sp-menu__item">
+            <a class="sp-menu__link" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+<!-- hero -->
+  <!-- CAROUSEL -->
+  <div id="carousel-hero" class="carousel slide" data-bs-ride="carousel">
+    <!-- Optional Toggle Buttons -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carousel-hero" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <!-- Carousel images/items -->
+    <div class="carousel-inner">
+      <!-- Carousel Item 1 -->
+      <div class="carousel-item active">
+        <!-- 5. SEO Image Alt Descriptions -->
+        <img src="./design_img/cafe1.jpg" class="d-block w-100" alt="Burger Lab Beer and Burger Bar">
+        <!-- 6A. NEW HERO - SEO Heading Captions for Carousel: https://getbootstrap.com/docs/5.3/components/carousel/#captions -->
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Café +met</h1>
+          <p>Dine in or take away, to sample our Classic, Angus or Big and Tasty Burger options!</p>
+        </div>
+      </div>
+
+      <!-- Carousel Item 2 -->
+      <div class="carousel-item">
+        <!-- 5. SEO Image Alt Descriptions -->
+        <img src="./design_img/cafe2.jpg" class="d-block w-100" alt="Burger Lab Restaurant Malvern">
+        <!-- 6A. NEW HERO - SEO Heading Captions for Carousel -->
+        <div class="carousel-caption d-none d-md-block">
+          <h1>We are opening a branch!</h1>
+          <p>New locations available in <strong>Wickham</strong> & <strong>Cochranes</strong>!</p>
+        </div>
+      </div>
+
+      <!-- Carousel Item 3 -->
+      <div class="carousel-item">
+        <!-- 5. SEO Image Alt Descriptions -->
+        <img src="./design_img/cafe3.jpg" class="d-block w-100" alt="Burger Lab Restaurant Malvern">
+        <!-- 6A. NEW HERO - SEO Heading Captions for Carousel -->
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Opening Café +met Near You!</h1>
+          <p>There are three branches in Moorabbin</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    <!-- ROW TWO: TEXT & FORM -->
+    <div class="row">
+      <!-- Start of Column-Left (8/12) -->
+      <div class="col-8 about" id="about">
+        <!-- 6B. SEO Content REWORK: We have included all kinds of keywords + anchor tags now to actual menu items (which are keywords) & will drive up our SEO! -->
+        <!--map-->
+        <p>Welcome to "Café +met", I named the cafe <strong>“+met”</strong> with the hope that many encounters will be made here. Nestled in the heart of our charming Moorrabin, <a href="./index.html" class="text-primary"> Café +met </a> is the perfect spot to unwind, connect, and enjoy a delightful cup of coffee. Our cozy café, with its warm ambiance and friendly staff, invites you to take a break from the hustle and bustle of daily life.</p>
+      </div>
+
+      <!-- Start of Column-Right (4/12) -->
+      <div class="col-3" id="about_img">
+        <!-- 5. SEO Image Alt Descriptions -->
+        <img src="./design_img/map.png" alt="Chef Morris" class="img-fluid rounded">
+      </div>
+    </div>
+
+
+<!--card-->
+  <div class="loc_container">
+    <div class="loc_itemWrap">
+      <div class="loc_item">
+        <p class="img"><img src="design_img/Melbourne.jpg" alt="Melbourne"></p>
+        <h3 class="card-title">South Rd</h3>
+          <p class="card-text">123 South Rd Moorabbin Melbourne VIC</p>
+      </div>
+    </div>
+
+    <div class="loc_itemWrap">
+      <div class="loc_item">
+        <p class="img"><img src="design_img/Cydney.jpg" alt="Cydney"></p>
+        <h3 class="card-title">Cochranes Rd</h3>
+          <p class="card-text">45 Cochranes Rd Moorrabin Melbourne VIC</p>
+      </div>
+    </div>
+
+    <div class="loc_itemWrap">
+      <div class="loc_item">
+        <p class="img"><img src="design_img/Canberra.jpg" alt="Canberra"></p>
+        <h3 class="card-title">Wickham Rd</h3>
+          <p class="card-text">678 Wickham Rd Moorrabin Melbourne VIC</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Div Section 4: Footer -->
+  <footer id="footer">
+    <div class="container text-center">
+      <h4>cafe +met &copy; 2024 unsplash</h4>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
